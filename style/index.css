@@ -1,0 +1,269 @@
+*{margin: 0;padding: 0;}
+@font-face{
+    font-family:aaa;
+    src:url(../fonts/新蒂黑板报体.ttf);
+}
+@font-face{
+    font-family:bbb;
+    src:url(../fonts/新蒂下午茶基本版.ttf);
+}
+ html, body {
+        position: relative;
+        height: 100%;
+        font-size:20px;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+.one{
+    position: relative;
+    background-color: #388bb6;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.one p{
+    font-family: aaa;
+    width: 100%;
+    position: absolute;
+    bottom: 4rem;
+    text-align:center;
+    z-index: 111;
+    color:white;
+    font-size: 1.5rem;
+}
+.two{
+    background-color: #334960;
+    position: relative;
+
+}
+.two .pic{
+    width:100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+}
+.two .peo{
+    width: 73%;
+    height: 63%;
+    position: absolute;
+    z-index: 12;
+    bottom: 1rem;
+    left:50%;
+    transform: translate(-50%);
+}
+.two p{
+    font-family: bbb;
+    position: absolute;
+    top:2.3rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color:white;
+    text-align: center;
+    z-index: 22
+}
+.two p span{
+    line-height:2.5rem;
+}
+.two p .year{
+    color:yellow;
+}
+.three{
+    background-color: #ff6a66;
+    position: relative;
+}
+.three .computer{
+    width: 50%;
+    height: 35%;
+    position: absolute;
+    bottom:2rem;
+    left:50%;
+    z-index: 1;
+    transform: translate(-50%);
+}
+.three .ps{
+    width: 30%;
+    height: 22%;
+    position: absolute;
+    bottom: 8.5rem;
+    left:0%;
+}
+.three .js{
+    width: 37%;
+    height: 27%;
+    position: absolute;
+    top:2rem;
+    right:0%;
+}
+.three .jquery{
+    width: 35%;
+    height: 27%;
+    position: absolute;
+    top:7rem;
+    right:0%;
+}
+.three .angular{
+    width: 43%;
+    height: 22%;
+    position: absolute;
+    top:11rem;
+    right:10%;
+}
+.three .bootstrap{
+    width: 30%;
+    height: 17%;
+    position: absolute;
+    top:2.5rem;
+    left:36%;
+}
+.three .ajax{
+    width: 30%;
+    height: 17%;
+    position: absolute;
+    top:2rem;
+    left:0rem;
+}
+.three .swiper{
+    width: 30%;
+    height: 17%;
+    position: absolute;
+    top:11.5rem;
+    left:3rem;
+}
+.three .zepto{
+    width: 47%;
+    height: 20%;
+    position: absolute;
+    top:7rem;
+    left:0rem;
+}
+.three .sagal{
+    width: 30%;
+    height: 17%;
+    position: absolute;
+    top:7.5rem;
+    left:50%;
+    transform:translate(-50%);
+
+}
+.four{
+    background-color: #01a187;
+    position: relative;
+}
+.four .table{
+    width: 50%;
+    height: 25%;
+    top:1rem;
+    position: absolute;
+    left:0rem;
+}
+.four .comp{
+    top:4.5rem;
+    position: absolute;
+    left:1rem;
+    width: 12%;
+    height: 10%;
+    z-index: 1;
+}
+.four .glass{
+    width: 25%;
+    height: 15%;
+    position: absolute;
+    left:2rem;
+    top:1.2rem;
+    z-index: 1;
+}
+.four .progress{
+    font-family: aaa;
+    color:white;
+    position: absolute;
+    font-size:1.5rem;
+    top:3rem;
+    right: 2rem;
+}
+.four .list{
+    position: absolute;
+    bottom: 5rem;
+}
+.four .list li{
+    font-family:"新宋体";
+    line-height: 2rem;
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    color:white;
+
+}
+.four .list li a{
+    color:white;
+}
+.five{
+    position: relative;
+    background-color:#f59c00;
+}
+.five .pa{
+    font-family: aaa;
+    color:white;
+    font-size:1.4rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+.five .pb{
+    font-family: aaa;
+    color:white;
+    font-size:1.4rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.five .peo{
+    width: 90%;
+    height: 16rem;
+    display: block;
+    margin: 0 auto;
+
+}
+.five .yuna{
+    width: 9rem;
+    height:9rem;
+    position: absolute;
+    bottom:3rem;
+    left:50%;
+    transform: translate(-50%);
+
+}
+.five .yunb{
+    width: 9rem;
+    height:4rem;
+    position: absolute;
+    bottom:4rem;
+    left:26%;
+
+}
+.five .contect{
+    width: 100%;
+    margin: 0 auto;
+    font-size:1.5rem;
+    line-height: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    padding-left: 2rem;
+    color:white;
+}
+.five .contect img{
+   float: left;
+   display: block;
+    width: 1.8rem;
+    height: 1.8rem;
+}
